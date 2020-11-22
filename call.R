@@ -17,9 +17,9 @@ opt <-  theme(panel.border = element_rect(color="black", fill = NA),
 
 
 P <- plot_physarium(
-  imageW = 300, # image width (pixels)
-  imageH = 300, # image heigth (pixels)
-  decayT = 0.1, # Trail-map chemoattractant diffusion decay factor
+  imageW = 800, # image width (pixels)
+  imageH = 800, # image heigth (pixels)
+  decayT = 0.01, # Trail-map chemoattractant diffusion decay factor
   FL =  22.5 * pi / 180, # FL sensor angle from forward position (degrees, 22.5 - 45)
   FR = -22.5 * pi / 180, # FR sensor angle from forward position (degrees, 22.5 - 45)
   RA =  45 * pi / 180, # Agent rotation angle (degrees)
